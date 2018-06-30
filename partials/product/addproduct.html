@@ -1,0 +1,77 @@
+<h2 class="ui header"> Add New Product</h2>
+<div class="page-container ui grid raised segment">
+  <div class="ui eight wide form-section">
+    <!-- PRODUCT NAME -->
+    <div class="ui input page-container-element">
+      <p class="input-label">Product Title</p>
+      <input type="text" placeholder="product title">
+    </div>
+
+    <!-- PRICE -->
+    <div class="ui field input page-container-element">
+      <p class="input-label">Price</p>
+      <input type="text" placeholder="price">
+      <!-- <div class="ui right pointing label">
+      All prices must be in your local currency as set on your profile
+    </div> -->
+  </div>
+
+  <!-- PRODUCT CATEGORY -->
+  <div class="page-container-element">
+    <p class="input-label">Select category</p>
+    <select class="ui dropdown">
+      <option value="">Binders / Resins</option>
+      <option value="1">Additives</option>
+      <option value="0">Dyes</option>
+    </select>
+  </div>
+
+  <!-- CHEMICAL NATURE -->
+  <div class="page-container-element">
+    <p class="input-label">Select chemical nature</p>
+    <select class="ui dropdown">
+      <option value="">Acrylic Resins</option>
+      <option value="1">Alkyd Resins</option>
+      <option value="0">Epoxy Resins</option>
+    </select>
+  </div>
+
+  <!-- TYPE OF CHEMICAL NATURE -->
+  <div class="page-container-element">
+    <p class="input-label">Select type of chemical nature</p>
+    <select class="ui dropdown">
+      <option value="">Acrylic Resins</option>
+      <option value="1">Alkyd Resins</option>
+      <option value="0">Epoxy Resins</option>
+    </select>
+  </div>
+
+</div>
+<div class="ui eight wide form-section">
+
+  <!-- SLID CONTENT -->
+  <div class="page-container-element">
+    <p class="input-label">Pick Solid content range</p>
+    <div id="slider" style="margin-top:16px"></div>
+  </div>
+
+
+  <!-- PRODUCT DESCRIPTION -->
+  <div class="ui input page-container-element textarea">
+    <p class="input-label">Description</p>
+    <input type="text" placeholder=""></textarea>
+  </div>
+
+  <!-- PRODUCT DESCRIPTION -->
+  <div class="ui input page-container-element textarea">
+    <p class="input-label">Application</p>
+    <input type="text" placeholder=""></textarea>
+  </div>
+
+  <!-- ADD PRODUCT BUTTON -->
+  <button class="button-active"> ADD PRODUCT</button>
+</div>
+</div>
+
+<script src="js/nouislider.js"></script>
+<script src="pages/product/addproduct.js"></script>
